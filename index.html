@@ -17,9 +17,16 @@
       <h1 class="text-center">CRUD API REST AXIOS</h1>
       <section class="crud row mt-5">
         <article class="col-12 col-lg-4">
-          <h3 class="crud-title ">Agregar Santo</h3>
+          <h3 class="crud-title">Agregar Santo</h3>
           <form class="crud-form mb-5">
-            <input class="form-control mb-3" type="text" name="nombre" placeholder="nombre" required />
+            <input
+              class="form-control mb-3"
+              type="text"
+              name="nombre"
+              placeholder="nombre"
+              required
+              autocomplete="off"
+            />
             <br />
             <input
               type="text"
@@ -27,9 +34,15 @@
               placeholder="constelación"
               required
               class="form-control mb-3"
+              autocomplete="off"
             />
             <br />
-            <input class="btn btn-outline-success" type="submit" value="Enviar" />
+            <input
+              class="btn btn-outline-success"
+              type="submit"
+              value="Enviar"
+              
+            />
             <input type="hidden" name="id" />
           </form>
         </article>
